@@ -1,4 +1,8 @@
-<h1 class="text-2xl text-green-400">Welcome to SvelteKit</h1>
-<p class="text-3xl  bg-black" id="nig">
-    kokot
-</p>
+<script>
+    import Header from '../components/Header.svelte'
+    import Main from '../components/Main.svelte'
+    import Footer from '../components/Footer.svelte'
+    import Step from '../components/Step.svelte'
+</script>
+
+<Main/>
