@@ -1,20 +1,20 @@
 <script>
-  import Step from './Step.svelte';
+  import Step from "./Step.svelte";
 
   let steps = [
     {
-      name: 'On Tyranny selector',
-      icon: 'fa-solid fa-book',
+      name: "On Tyranny selector",
+      icon: "fa-solid fa-book",
     },
     {
-      name: 'Snake game',
-      icon: 'fa-solid fa-gamepad',
+      name: "Snake game",
+      icon: "fa-solid fa-gamepad",
     },
     {
-      name: 'Pong game',
-      icon: 'fa-solid fa-table-tennis-paddle-ball',
-    }
-  ]
+      name: "Pong game",
+      icon: "fa-solid fa-table-tennis-paddle-ball",
+    },
+  ];
 </script>
 
 <main class="flex flex-col flex-1 p-4">
@@ -70,9 +70,30 @@
       <p>Watch the video</p>
     </a>
     <div class="grid grid-cols-1 lg:grid-cols-3 gap-12 lg:gap-10">
-      <Step step={steps[0]}></Step>
-      <Step step={steps[1]}></Step>
-      <Step step={steps[2]}></Step>
+      <Step step={steps[0]}>
+        <p>
+          This selector chooses a random chapter Timothy Snyder's book <strong
+            class="text-violet-400">On Tyranny</strong
+          >. If you don't want it select the same chapter again, just put it to
+          the read ones.
+        </p>
+      </Step>
+      <Step step={steps[1]}>
+        <p>
+          Let's you play the OG <strong class="text-violet-400">Snake</strong>.
+          Bet you can't outscore me!
+        </p>
+      </Step>
+      <Step step={steps[2]}>
+        <p>
+          Play your old favourite game of <strong class="text-violet-400"
+            >Pong</strong
+          > against a bots of various difficulties. You haven't a seen a real opponent
+          until the hardest bot.
+        </p>
+      </Step>
     </div>
   </section>
+
+  <section id="about"></section>
 </main>
