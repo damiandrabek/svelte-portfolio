@@ -14,9 +14,11 @@
       ? " py-4 bg-slate-950 border-violet-950"
       : " py-6 bg-transparent border-transparent")}
 >
-  <h1 class="font-medium">
+  <a href="#introPage">
+    <h1 class="font-medium">
     <b class="font-bold poppins">Damian</b> Drabek
   </h1>
+  </a>
   <div class="sm:flex ml-auto pr-4 items-center gap-4 hidden">
     {#each tabs as tab, index}
       <a href={tab.link} class="duration-200 hover:text-violet-400">
