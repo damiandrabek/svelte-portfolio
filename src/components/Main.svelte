@@ -32,6 +32,7 @@
       description: "Communication is key and it's paramount value of mine.",
     },
   ];
+  let color = "violet";
 </script>
 
 <main class="flex flex-col flex-1 p-4">
@@ -41,7 +42,7 @@
       class="flex flex-col lg:justify-center text-center lg:text-left gap-6 md:gap-8 lg:gap-10"
     >
       <h2 class="font-semibold text-4xl sm:text-5xl md:text-6xl">
-        Hi! I am <span class="poppins text-violet-400">Damian</span> Drábek
+        Hi! I am <span class={"poppins text-" + color + "-400"}>Damian</span> Drábek
         <br />
         Full Stack <span class="poppins text-violet-400">Developer</span>
       </h2>
@@ -55,12 +56,12 @@
         class="blueShadow mx-auto lg:mr-auto lg:ml-0 text-base sm:text-lg md:text-xl poppins relative overflow-hidden px-6 py-3 group rounded-full bg-white text-slate-950 cursor-pointer"
       >
         <div
-          class="absolute top-0 right-full w-full h-full bg-violet opacity-20 group-hover:translate-x-full z-0 duration-200"
+          class="absolute top-0 right-full w-full h-full bg-violet-400 opacity-20 group-hover:translate-x-full z-0 duration-200"
         ></div>
         <h4 class="relative z-9">Get in touch &rarr;</h4>
       </a>
     </div>
-    <div class="realtive shadow-2xl grid place-items-center">
+    <div class="relative shadow-2xl grid place-items-center">
       <img
         src={"images/profile.png"}
         alt="Profile image"
