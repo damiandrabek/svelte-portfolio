@@ -25,7 +25,7 @@
     {
       name: "a product design and UX fanatic",
       description:
-        "Carafully crafting and designing amazing UIs allows me to express and experiment with creativity I have",
+        "Carefully crafting and designing amazing UIs allows me to express and experiment with creativity I have.",
     },
     {
       name: "an excellent communicator",
